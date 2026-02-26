@@ -21,4 +21,8 @@ public abstract class Book {
         this.pages = pages;
         this.copies = copies;
     }
+
+    public int getCopies(){
+        return copies;
+    }
 }
