@@ -1,5 +1,6 @@
 package main;
 
-public class Borrowable {
-    
+public interface Borrowable {
+    void borrow();
+    void returnBook();
 }
